@@ -1,0 +1,1 @@
+{ "name": "voltride-deck", "private": true, "description": "Génération du PowerPoint (node scripts/build_deck.js)", "dependencies": { "pptxgenjs": "^3.12.0" } }

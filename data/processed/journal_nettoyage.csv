@@ -1,0 +1,26 @@
+﻿regle,lignes_concernees,traitement
+Doublons exacts (ids normalisés),190,"Suppression, 1re occurrence conservée"
+id_transaction répété (contenu différent),0,"Suppression, 1re occurrence conservée"
+Dates dans un format non ISO,2803,Conversion vers AAAA-MM-JJ
+"Dates manquantes, impossibles ou hors période",25,Suppression (impossible de rattacher la ligne à un mois)
+"Statuts hétérogènes (casse, accents, anglais)",956,Uniformisation : Terminée / Annulée / Remboursée
+"Villes mal orthographiées (casse, espaces, fautes)",916,Correction par proximité de chaîne
+Villes manquantes,75,Reconstituée depuis le code station (ST-XXX-NN)
+Pays à reconstituer (encodage ou incohérence avec la ville),0,Pays dérivé de la ville corrigée (référentiel)
+Libellés de service hétérogènes,1010,Uniformisation vers les 4 lignes de service
+Service manquant,33,Inféré par le coût unitaire le plus proche ; supprimé si coût absent
+Canaux d'acquisition hétérogènes ou manquants,765,"Uniformisation vers 6 canaux, manquants -> 'Non renseigné'"
+Modes de paiement hétérogènes ou manquants,607,"Uniformisation vers 3 modes, manquants -> 'Non renseigné'"
+Quantités nulles,60,Suppression
+Quantités négatives,5,Valeur absolue (erreur de signe)
+Quantités irréalistes (> 10 unités),5,Suppression
+Prix négatifs,5,Valeur absolue
+Prix multipliés par 10,44,Division par 10
+Prix multipliés par 100,6,Division par 100
+Prix nuls ou hors tolérance,10,Remplacés par la médiane du service
+Remises négatives,70,Remplacées par 0 % (non vérifiable)
+Remises > 100 %,7,Remplacées par 0 % (non vérifiable)
+Coûts unitaires manquants,67,Médiane du service
+Coûts marketing manquants,196,Médiane du canal
+Coûts marketing aberrants (> 5000 FCFA),11,Médiane du canal
+Lignes finales,6110,280 lignes retirées sur 6390

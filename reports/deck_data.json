@@ -1,0 +1,391 @@
+{
+ "kpi": {
+  "transactions": 6110.0,
+  "clients": 1098.0,
+  "ca_total": 95303822.5,
+  "ca_net": 86914025.0,
+  "marge_brute": 30909472.5,
+  "marketing": 6715039.5,
+  "profit_net": 24194433.0,
+  "profit_net_reel": 15804635.5,
+  "panier_moyen": 17287.107291855613,
+  "taux_annulation": 0.09770867430441899,
+  "taux_remboursement": 0.07436967168510793,
+  "marge_pct": 0.32432563237429435,
+  "note_moyenne": 3.8173572459286746
+ },
+ "mois": {
+  "labels": [
+   "Mai",
+   "Juin",
+   "Juil",
+   "Août",
+   "Sept",
+   "Oct"
+  ],
+  "ca": [
+   14.76,
+   14.95,
+   14.51,
+   16.12,
+   16.59,
+   18.38
+  ],
+  "profit": [
+   3.8,
+   3.81,
+   3.68,
+   4.11,
+   4.13,
+   4.67
+  ],
+  "croissance_mai_oct": 0.24489688431018442
+ },
+ "services": {
+  "noms": [
+   "Abonnement mensuel",
+   "Location journalière",
+   "Accessoires & maintenance",
+   "Swap batterie"
+  ],
+  "ca": [
+   54.79,
+   20.22,
+   10.73,
+   9.57
+  ],
+  "marge_pct": [
+   0.354,
+   0.254,
+   0.257,
+   0.381
+  ],
+  "profit_net": [
+   18.17,
+   3.68,
+   1.97,
+   0.38
+  ],
+  "profit_reel": [
+   14.42,
+   0.76,
+   0.58,
+   0.04
+  ],
+  "remb": [
+   6.7,
+   13.9,
+   13.8,
+   3.5
+  ],
+  "part_ca": [
+   57.486,
+   21.22,
+   11.257,
+   10.037
+  ],
+  "part_mkt": [
+   17.858,
+   21.744,
+   11.693,
+   48.706
+  ],
+  "part_profit": [
+   75.103,
+   15.2,
+   8.145,
+   1.551
+  ],
+  "part_tx": [
+   18.167,
+   21.489,
+   11.506,
+   48.838
+  ],
+  "chute_profit": [
+   0.207,
+   0.792,
+   0.706,
+   0.88
+  ]
+ },
+ "villes": {
+  "noms": [
+   "Abidjan",
+   "Dakar",
+   "Douala",
+   "Lomé",
+   "Cotonou"
+  ],
+  "ca": [
+   35.09,
+   17.48,
+   16.73,
+   13.8,
+   12.21
+  ],
+  "profit_reel": [
+   5.99,
+   3.57,
+   2.28,
+   1.85,
+   2.11
+  ],
+  "annulation": [
+   7.8,
+   8.2,
+   15.5,
+   9.5,
+   9.4
+  ],
+  "remb": [
+   6.9,
+   6.2,
+   9.2,
+   8.4,
+   7.0
+  ],
+  "croissance": [
+   23.1,
+   1.6,
+   -1.0,
+   19.5,
+   38.1
+  ],
+  "contrib_station": [
+   182,
+   94,
+   87,
+   69,
+   66
+  ],
+  "tx_station": [
+   44.7,
+   23.0,
+   23.7,
+   19.2,
+   15.2
+  ],
+  "point_mort": [
+   21,
+   54,
+   63,
+   null,
+   null
+  ],
+  "part_ca": [
+   36.8,
+   18.3,
+   17.6,
+   14.5,
+   12.8
+  ]
+ },
+ "point_mort": {
+  "hyp": {
+   "capex": 2500000,
+   "fixes": 45000,
+   "ramp": 3,
+   "taux0": 0.5
+  },
+  "moyenne_base": 49,
+  "moyenne_plus40": 29
+ },
+ "canaux": {
+  "noms": [
+   "Parrainage",
+   "WhatsApp Business",
+   "Partenariat chauffeurs VTC",
+   "Affichage & stations",
+   "Meta Ads",
+   "TikTok Ads"
+  ],
+  "roi": [
+   35.9,
+   23.8,
+   19.6,
+   9.8,
+   8.9,
+   7.4
+  ],
+  "part_mkt": [
+   6.827,
+   8.435,
+   13.027,
+   13.812,
+   26.07,
+   30.281
+  ],
+  "part_ca": [
+   17.746,
+   14.727,
+   18.93,
+   10.464,
+   18.27,
+   17.887
+  ],
+  "cout_tx": [
+   441.0,
+   624.0,
+   793.0,
+   1286.0,
+   1574.0,
+   1820.0
+  ],
+  "retention": [
+   72.6,
+   67.6,
+   66.1,
+   63.4,
+   65.8,
+   61.3
+  ],
+  "annulation": [
+   9.2,
+   9.3,
+   9.5,
+   9.4,
+   7.6,
+   13.1
+  ],
+  "remb": [
+   6.0,
+   7.5,
+   6.6,
+   5.5,
+   7.3,
+   11.0
+  ],
+  "swap_profit_k": {
+   "Parrainage": 391,
+   "WhatsApp Business": 284,
+   "Partenariat chauffeurs VTC": 244,
+   "Affichage & stations": -44,
+   "Meta Ads": -177,
+   "TikTok Ads": -340
+  }
+ },
+ "clients": {
+  "total": 1098,
+  "actifs": 1072,
+  "recurrents": 0.6996268656716418,
+  "retenus": 0.6595149253731343,
+  "n80": 318,
+  "pct80": 0.2966417910447761,
+  "freq_noms": [
+   "Occasionnel (1-2)",
+   "Régulier (3-5)",
+   "Fidèle (6+)"
+  ],
+  "freq_part_clients": [
+   51.6,
+   27.0,
+   21.5
+  ],
+  "freq_part_ca": [
+   13.4,
+   18.7,
+   67.9
+  ],
+  "top10_part": 0.17505903291549507,
+  "note_remb": 1.8705882352941177,
+  "note_term": 3.9253698868581375
+ },
+ "conversion": {
+  "clients_swap": 833,
+  "deja_abonnes_pct": 0.4369747899159664,
+  "swap_only": 469,
+  "abo_marge_mois": 9584.322117763484,
+  "swap_marge_mois": 400.4504264392324,
+  "scenarios": [
+   {
+    "taux": 0.05,
+    "clients": 23,
+    "gain_M": 0.6461
+   },
+   {
+    "taux": 0.1,
+    "clients": 47,
+    "gain_M": 1.2922
+   },
+   {
+    "taux": 0.15,
+    "clients": 70,
+    "gain_M": 1.9383
+   }
+  ]
+ },
+ "remises": {
+  "tranches": [
+   "0 %",
+   "5 %",
+   "10 %",
+   "15 %",
+   "20 %"
+  ],
+  "q": [
+   2.42,
+   2.39,
+   2.46,
+   2.37,
+   2.48
+  ],
+  "marge_par_tx": [
+   6305.0,
+   4846.0,
+   4511.0,
+   3473.0,
+   2421.0
+  ],
+  "remb": [
+   7.1,
+   8.0,
+   7.6,
+   6.8,
+   12.5
+  ],
+  "part_remisees": 0.33502454991816694,
+  "sacrifice_M": 3.33,
+  "sacrifice_pct_marge": 0.10781088224653462,
+  "part_ge15": 0.10081833060556465
+ },
+ "segments": {
+  "noms": [
+   "PME / flotte",
+   "Chauffeur moto-taxi",
+   "Livreur",
+   "Particulier"
+  ],
+  "profit_reel_tx": [
+   5064.0,
+   2762.0,
+   1678.0,
+   1441.0
+  ],
+  "remb": [
+   6.5,
+   5.9,
+   6.4,
+   11.7
+  ],
+  "part_ca": [
+   20.5,
+   40.1,
+   15.5,
+   23.9
+  ],
+  "panier": [
+   23638.0,
+   16208.0,
+   14108.0,
+   17692.0
+  ]
+ },
+ "impacts": {
+  "remb_total_M": 8.39,
+  "remb_loc_acc_M": 4.305,
+  "gain_remb_M": 2.1525,
+  "gain_marketing_M": 4.511,
+  "roi_global": 13.192592984747149
+ }
+}
